@@ -1,12 +1,17 @@
 class HelloWorld {
   public static void main(String[] args) {
 
-    String text = " Terra  Cota ";
-    System.out.println(text.toLowerCase());
-    System.out.println(text.toUpperCase());
-    System.out.println(text.strip());
-    System.out.println(text.charAt(2) );
-    System.out.println(text.trim());
+    int result = sum(100);
+    System.out.println(result);
 
+
+  }
+  public static int sum(int n) {
+    if(n > 0 ) {
+      return n + sum(n-1);
+    }
+    else {
+      return 0;
+    }
   }
 }
