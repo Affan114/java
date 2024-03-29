@@ -1,12 +1,14 @@
 class HelloWorld {
-  int x ;
+  static int x ;
   public static void main(String[] args) {
 
-   HelloWorld obj1 = new HelloWorld();
-   obj1.x = 213;
-   System.out.println(obj1.x);
-
-
+    String s1 = "Affan Shariff";
+    String s2 = " ";
+    for(int i =  s1.length() - 1; i>= 0 ; i--) {
+      s2 += s1.charAt(i);
+    }
+    System.out.println(s2);
   }
 
 }
+
