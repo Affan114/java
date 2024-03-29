@@ -4,8 +4,9 @@ class HelloWorld {
 
     String s1 = "Affan Shariff";
     String s2 = " ";
-    for(int i =  s1.length() - 1; i>= 0 ; i--) {
-      s2 += s1.charAt(i);
+    String Sarr[] = s1.split(" ");
+    for(int i =  Sarr.length - 1; i>= 0 ; i--) {
+      s2 += Sarr[i];
     }
     System.out.println(s2);
   }
