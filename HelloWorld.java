@@ -4,6 +4,8 @@ class HelloWorld {
 
      StringBuffer sb = new StringBuffer("Affan ");
      sb.append("Shariff");
+    
+     sb = new StringBuffer("Desire");
      System.out.println(sb);
   }
 
